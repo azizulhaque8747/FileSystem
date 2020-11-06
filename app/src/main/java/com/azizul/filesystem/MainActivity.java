@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             Editor.apply();
         });
 
+
         findViewById(R.id.button2).setOnClickListener((View v) ->{
             ((EditText) findViewById(R.id.FirstName)).setText(mPreferences.getString("fNamekey","N/A"));
             ((EditText) findViewById(R.id.LastName)).setText(mPreferences.getString("LNamekey","N/A"));
